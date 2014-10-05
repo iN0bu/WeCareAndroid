@@ -8398,6 +8398,8 @@ false
                 qualifiers="" >
                 <string name="action_settings" >Settings
                 </string>
+                <string name="title_activity_modifier_profil" >Modier mon profil
+                </string>
                 <string name="app_name" >We Care 4 U
                 </string>
                 <string name="stop_service" >Stop Service
@@ -8412,7 +8414,7 @@ false
                 </string>
                 <string name="braodcast" >Broadcast SMS
                 </string>
-                <string name="title_activity_configure" >Profile
+                <string name="title_activity_configure" >Profil
                 </string>
             </file>
             <file
@@ -8465,6 +8467,16 @@ false
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
             </file>
+            <file
+                name="activity_modifier_profil_temp"
+                path="/Users/jujusanderson78/Desktop/dev/WeCareForUAndroid/wecareapp/src/main/res/layout/activity_modifier_profil_temp.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_modifier_profil"
+                path="/Users/jujusanderson78/Desktop/dev/WeCareForUAndroid/wecareapp/src/main/res/layout/fragment_modifier_profil.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="/Users/jujusanderson78/Desktop/dev/WeCareForUAndroid/wecareapp/build/generated/res/rs/debug" />
         <source path="/Users/jujusanderson78/Desktop/dev/WeCareForUAndroid/wecareapp/build/generated/res/generated/debug" />

@@ -45,6 +45,17 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.pulusata.wecarefouru.FallDetection" />
         </activity>
+
+        <activity
+            android:name="com.pulusata.wecarefouru.ModiferProfil"
+            android:label="@string/title_activity_modifier_profil"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.pulusata.wecarefouru.Configure" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pulusata.wecarefouru.Configure" />
+        </activity>
     </application>
 
 </manifest>

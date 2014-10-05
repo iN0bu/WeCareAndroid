@@ -83,6 +83,7 @@ public class FallDetection extends ListActivity {
         startActivity(configIntent);
     }
 
+
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);

@@ -562,7 +562,8 @@
     <string name="pick_contact">Add Contact</string>
     <string name="start_service">Start Service</string>
     <string name="stop_service">Stop Service</string>
-    <string name="title_activity_configure">Profile</string>
+    <string name="title_activity_configure">Profil</string>
+    <string name="title_activity_modifier_profil">Modier mon profil</string>
     <!-- From: file:/Users/jujusanderson78/Desktop/dev/WeCareForUAndroid/wecareapp/src/main/res/values/styles.xml -->
     <eat-comment />
 
