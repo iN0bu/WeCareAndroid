@@ -1,0 +1,87 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From FallDetection:
+* ic_launcher-web.png
+* proguard-project.txt
+From PEBBLE_KIT:
+* .gitignore
+* PebbleKit/
+* PebbleKit/PebbleKit-PebbleKit.iml
+* PebbleKit/PebbleKit.iml
+* PebbleKit/build.gradle
+* PebbleKit/gradle.properties
+* PebbleKit/src/
+* PebbleKit/src/main/
+* PebbleKit/src/main/AndroidManifest.xml
+* PebbleKit/src/main/java/
+* PebbleKit/src/main/java/com/
+* PebbleKit/src/main/java/com/getpebble/
+* PebbleKit/src/main/java/com/getpebble/android/
+* PebbleKit/src/main/java/com/getpebble/android/kit/
+* PebbleKit/src/main/java/com/getpebble/android/kit/Constants.java
+* PebbleKit/src/main/java/com/getpebble/android/kit/PebbleKit.java
+* PebbleKit/src/main/java/com/getpebble/android/kit/util/
+* PebbleKit/src/main/java/com/getpebble/android/kit/util/PebbleDictionary.java
+* PebbleKit/src/main/java/com/getpebble/android/kit/util/PebbleTuple.java
+* PebbleKit/src/main/res/
+* PebbleKit/src/main/res/layout/
+* PebbleKit/src/main/res/layout/main.xml
+* PebbleKit/src/main/res/values/
+* PebbleKit/src/main/res/values/strings.xml
+* PebbleKitAndroid.iml
+* build.gradle
+* gradle.properties
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In PEBBLE_KIT:
+* /Users/jujusanderson78/Desktop/dev/fall-detection-master/WeCareForUAndroid/src/ => pEBBLE_KIT/src/main/java/
+* AndroidManifest.xml => pEBBLE_KIT/src/main/AndroidManifest.xml
+In FallDetection:
+* AndroidManifest.xml => fallDetection/src/main/AndroidManifest.xml
+* res/ => fallDetection/src/main/res/
+* src/ => fallDetection/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

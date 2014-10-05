@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WeCare4U.iml" filepath="$PROJECT_DIR$/WeCare4U.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeCareForUAndroid.iml" filepath="$PROJECT_DIR$/WeCareForUAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wecareapp/wecareapp.iml" filepath="$PROJECT_DIR$/wecareapp/wecareapp.iml" />
+    </modules>
+  </component>
+</project>
+
